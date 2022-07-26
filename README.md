@@ -6,8 +6,6 @@ This repository provides a basic example of how to start developing a React site
 
 ### Prerequisites
 
-1. You must have access to the Yext Github organization: https://github.com/yext
-1. You must have access to the Yext NPM organization: https://www.npmjs.com/org/yext
 1. Have the Yext CLI installed: https://hitchhikers.yext.com/guides/cli-getting-started-resources/01-install-cli/
 1. Have Deno installed, version 1.21.0 or later: https://deno.land/manual/getting_started/installation
 1. Have node installed, version 17 or later: https://nodejs.org/en/download/
@@ -19,8 +17,8 @@ This repository provides a basic example of how to start developing a React site
 ### Clone this repo and install dependencies
 
 ```shell
-git clone git@github.com:yext/site-starter-react-basic.git
-cd site-starter-react-basic
+git clone git@github.com:yext/pages-starter-react-basic.git
+cd -starter-react-basic
 npm install
 ```
 
@@ -32,8 +30,8 @@ npm install
 
 - All stream documents come from the `localData` folder
 - You can visit either of these urls out of the box
-  - http://localhost:3000/index/123
-  - http://localhost:3000/static
+  - http://localhost:5173/location/123
+  - http://localhost:5173/static
 
 `npm run dev -- dynamic` - same as above except instead of using files from `localData` it will pull the document from Yext on the fly
 
